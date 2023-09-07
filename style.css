@@ -297,7 +297,7 @@ a:focus::after{
 }
 #ContactUs{
     display: flex;
-    background-color: rgba(30, 30, 30, 1);
+    background-color: rgba(127, 22, 10, 0.371);
     flex-direction: column;
     position: absolute;
     margin-top: 130vh;
@@ -306,6 +306,7 @@ a:focus::after{
     height: 40rem;
     margin-bottom: 100vh;
     border-radius: 12px;
+    box-shadow: 5px 5px 5px ;
 }
 .inp{
     width: 90%;
@@ -366,14 +367,15 @@ a:focus::after{
 #Projects{
 
     height: 20rem;
-    width: 50rem;
-    margin-left: 80px;
-    background-color:rgba(30, 30, 30, 1);
+    width: 40rem;
+    margin-left: 12rem;
+    background-color:rgba(127, 22, 10, 0.371);
     display: flex;
     flex-direction: column;
     margin-top: 125rem;
     border: 2px solid black;
     color: rgba(0, 240, 255, 1);
+    box-shadow: 5px 5px 5px black;
     border-radius: 12px;
 
     
@@ -381,12 +383,12 @@ a:focus::after{
     
 }
 #lili{
-    margin-left: 15rem;
+    margin-left: 6rem;
     font-size:20px;
     
 }
 #proj{
     color: rgba(255, 184, 0, 1);
     font-size:50px;
-    margin-left: 38vh;
+    margin-left: 30vh;
 }
